@@ -1,0 +1,35 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.jamiestarke.webviewdebug": {
+            "PACKAGE_NAME": "com.telefonicabeta.kitv3.wearable"
+        },
+        "com.megster.cordova.bluetoothserial": {
+            "PACKAGE_NAME": "com.telefonicabeta.kitv3.wearable"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.adrielcafe.lifeband"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.adrielcafe.lifeband"
+        }
+    },
+    "dependent_plugins": {}
+}

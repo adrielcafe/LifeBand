@@ -1,0 +1,82 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"BluetoothSerial\"><param name=\"android-package\" value=\"com.megster.cordova.BluetoothSerial\" /></feature>",
+                            "count": 2
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"WebViewDebug\"><param name=\"android-package\" value=\"com.jamiestarke.webviewdebug.WebViewDebug\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.BLUETOOTH\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<receiver android:name=\"de.appplant.cordova.plugin.localnotification.Receiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"de.appplant.cordova.plugin.localnotification.Restore\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.localnotification.ReceiverActivity\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application/activity": []
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.megster.cordova.bluetoothserial": {
+            "PACKAGE_NAME": "com.telefonicabeta.kitv3.wearable"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.adrielcafe.lifeband"
+        },
+        "com.jamiestarke.webviewdebug": {
+            "PACKAGE_NAME": "com.adrielcafe.lifeband"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.adrielcafe.lifeband"
+        }
+    },
+    "dependent_plugins": {}
+}

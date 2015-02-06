@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "name": "LifeBand",
+  "description": "O app que vai mudar sua vida para melhor",
+  "developer": {
+    "name": "Adriel Café",
+    "url": "http://adrielcafe.com"
+  },
+  "icons": {
+    "16": "/img/ico-ffOS-16x16.png",
+    "48": "/img/ico-ffOS-48x48.png",
+    "128": "/img/ico-ffOS-128x128.png"
+  },
+  "launch_path": "/index.html",
+  "installs_allowed_from": ["*"],
+  "permissions": {
+    "desktop-notification": { "description": "Lembrar a atividade que deve ser feita" }
+  }, 
+  "default_locale": "pt"
+}
