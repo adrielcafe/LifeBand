@@ -96,6 +96,10 @@ var app = {
         wearable.initialize();
         setup();
         ledsOff();
+        //TEMP
+        if(navigator.mozAlarms) {
+            new Notification("Hi there!");
+        }
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

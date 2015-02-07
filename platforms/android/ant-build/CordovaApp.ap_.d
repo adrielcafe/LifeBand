@@ -1,6 +1,5 @@
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/ant-build/CordovaApp.ap_ \
- : /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/drawable/ic_notification.png \
-/Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/drawable-hdpi/ic_launcher.png \
+ : /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/drawable-hdpi/ic_launcher.png \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/drawable-mdpi/ic_launcher.png \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/drawable-xhdpi/ic_launcher.png \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/drawable-xxhdpi/ic_launcher.png \
@@ -8,7 +7,6 @@
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/raw/notification.mp3 \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/values/strings.xml \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/res/xml/config.xml \
-/Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/ant-build/res/drawable/ic_notification.png \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/ant-build/res/drawable-hdpi/ic_launcher.png \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/ant-build/res/drawable-mdpi/ic_launcher.png \
 /Users/adrielcafe/Cordova/workspace/LifeBand/platforms/android/ant-build/res/drawable-xhdpi/ic_launcher.png \
